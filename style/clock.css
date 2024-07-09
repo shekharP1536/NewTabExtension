@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'orbitron';
+  src: url('https://fonts.googleapis.com/css?family=Orbitron');
+}
+
+  *,html{margin:0;}
+  figure{width:100px;
+    height: 100px;;
+    position:fixed;
+    top:60px;
+    left:30px;
+    margin-top:auto;
+    margin-left:auto;
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    -webkit-transform: rotateX(-35deg) rotateY(45deg);
+    transform: rotateX(-35deg) rotateY(45deg);transition:2s;}
+
+  
+    body {
+      background: black;
+  }
+  
+  .clock {
+    position: absolute;
+    color: black;
+    font-size: 25px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    font-family: Orbitron;
+    background: #a3a1a15e;
+    letter-spacing: 7px;
+}   
+

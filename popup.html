@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            overflow: hidden;
+        }
+
+        .container {
+            max-width: 800px;
+            width: 350px;
+            height: 550px;
+            margin: 20px auto;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .heading {
+            text-align: center;
+            color: #333;
+            margin-top: 0;
+            font-size: 28px;
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 10px;
+        }
+
+        .list-type1 {
+            margin-top: 20px;
+        }
+
+        .list-type1 p {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .list-type1 ol {
+            list-style-type: none;
+            counter-reset: li;
+            padding-left: 0;
+        }
+
+        .list-type1 li {
+            position: relative;
+            margin-bottom: 10px;
+            padding-left: 30px;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        .list-type1 li:before {
+            content: "\2022";
+            position: absolute;
+            left: 0;
+            color: #93C775;
+            font-size: 20px;
+            line-height: 1;
+        }
+
+        .list-type1 a {
+            color: #333;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .list-type1 a:hover {
+            color: #93C775;
+        }
+
+        footer {
+            margin-top: 20px;
+            text-align: center;
+            font-size: 14px;
+        }
+
+        footer span {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        footer button {
+            padding: 12px 24px;
+            background-color: #93C775;
+            border: none;
+            border-radius: 20px;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 10px;
+        }
+
+        footer button:hover {
+            background-color: #6a9f54;
+        }
+
+        footer button a {
+            color: #fff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h3 class="heading">New Tab Features</h3>
+        <div class="list-type1">
+            <p>Key features:</p>
+            <ol>
+                <li><a href="#">New Tab with a fresh and modern look.</a></li>
+                <li><a href="#">ToDo list feature.</a></li>
+                <li><a href="#">3D clock widget.</a></li>
+                <li><a href="#">Customizable Bing search box.</a></li>
+                <li><a href="#">Dynamic wallpaper (changeable from the top-right corner).</a></li>
+                <li><a href="#">Refreshing jokes available.</a></li>
+                <li><a href="#">Daily news updates from around the world.</a></li>
+            </ol>
+        </div>
+        <footer>
+            <span>Don't forget to share your ideas and reviews!</span>
+            <button><a target="_blank"
+                    href="https://microsoftedge.microsoft.com/addons/detail/hcmhcofechkanjihiijkagdlgohfhjnc">Share
+                    your review <i class="fa fa-external-link" aria-hidden="true"></i></a></button>
+        </footer>
+    </div>
+</body>
+
+</html>
